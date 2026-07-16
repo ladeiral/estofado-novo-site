@@ -1,0 +1,228 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Caminhos relativos à raiz do repositório Git (o repositório do GitHub
+# já é a pasta "site" — não existe outra pasta acima dela aqui).
+media_folder: "uploads"
+public_folder: "/uploads"
+
+locale: "pt"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do Site"
+    files:
+      - file: "data/content.json"
+        label: "Página Principal"
+        name: "content"
+        fields:
+          - label: "Dados gerais / contato"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Nome da marca", name: "brand_name", widget: "string" }
+              - { label: "Título da página (aba do navegador)", name: "title", widget: "string" }
+              - { label: "Descrição (SEO)", name: "description", widget: "text" }
+              - { label: "Telefone principal (exibido)", name: "phone_primary_display", widget: "string", hint: "Ex: (11) 98765-4321" }
+              - { label: "Telefone principal (link tel:)", name: "phone_primary_tel", widget: "string", hint: "Ex: +5511987654321" }
+              - { label: "Telefone secundário (exibido)", name: "phone_secondary_display", widget: "string" }
+              - { label: "Telefone secundário (link tel:)", name: "phone_secondary_tel", widget: "string" }
+              - { label: "Número do WhatsApp", name: "whatsapp_number", widget: "string", hint: "Só números com DDI, ex: 5511987654321" }
+              - { label: "Mensagem padrão do WhatsApp", name: "whatsapp_default_message", widget: "string" }
+              - { label: "Mensagem do WhatsApp (botão de visita)", name: "whatsapp_visit_message", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Link do Instagram", name: "instagram_url", widget: "string" }
+              - { label: "Texto do Instagram", name: "instagram_label", widget: "string" }
+              - { label: "Link do Facebook", name: "facebook_url", widget: "string" }
+              - { label: "Texto do Facebook", name: "facebook_label", widget: "string" }
+              - { label: "Endereço / base operacional", name: "address", widget: "string" }
+              - { label: "Horário de atendimento", name: "hours", widget: "string" }
+
+          - label: "Topo (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Selo de avaliação", name: "badge", widget: "string" }
+              - { label: "Título — 1ª linha", name: "title_line1", widget: "string" }
+              - { label: "Título — parte em destaque", name: "title_accent", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - { label: "Texto do botão principal", name: "cta_primary_text", widget: "string" }
+              - { label: "Texto do botão secundário", name: "cta_secondary_text", widget: "string" }
+              - label: "Selos de confiança"
+                name: "trust"
+                widget: "list"
+                fields:
+                  - { label: "Valor", name: "value", widget: "string" }
+                  - { label: "Legenda", name: "label", widget: "string" }
+              - { label: "Legenda da imagem antes/depois", name: "visual_caption", widget: "string" }
+
+          - label: "Sobre"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Parágrafos"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Parágrafo", name: "text", widget: "text", hint: "Use **palavra** para deixar em negrito" }
+              - { label: "Foto", name: "photo", widget: "image", required: false, hint: "Se não enviar, mostra a ilustração padrão" }
+              - { label: "Legenda da foto", name: "photo_note", widget: "string" }
+              - { label: "Nome (assinatura)", name: "signature_name", widget: "string" }
+              - { label: "Cargo (assinatura)", name: "signature_role", widget: "string" }
+
+          - label: "Serviços"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Ícone (emoji)", name: "icon", widget: "string" }
+                  - { label: "Título", name: "title", widget: "string" }
+              - { label: "Título dos serviços adicionais", name: "extra_title", widget: "string" }
+              - label: "Serviços adicionais"
+                name: "extra_items"
+                widget: "list"
+                field: { label: "Texto", name: "text", widget: "string" }
+
+          - label: "Como funciona"
+            name: "process"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - label: "Passos"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "text" }
+
+          - label: "Preços"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "text" }
+              - label: "Formas de pagamento"
+                name: "payments"
+                widget: "list"
+                field: { label: "Item", name: "text", widget: "string" }
+              - { label: "Texto do botão", name: "cta_text", widget: "string" }
+              - { label: "Título do card", name: "card_title", widget: "string" }
+              - { label: "Texto do card", name: "card_text", widget: "text" }
+              - { label: "Nota do card (ex: 'Atendimento rápido: ...')", name: "card_note", widget: "string" }
+
+          - label: "Diferenciais"
+            name: "differentials"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Ícone (emoji)", name: "icon", widget: "string" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "text" }
+              - label: "Estatísticas"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Valor", name: "value", widget: "string" }
+                  - { label: "Legenda", name: "label", widget: "string" }
+
+          - label: "Galeria Antes/Depois"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - label: "Fotos"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Foto — Antes", name: "before_image", widget: "image", required: false }
+                  - { label: "Foto — Depois", name: "after_image", widget: "image", required: false }
+                  - { label: "Legenda", name: "caption", widget: "string" }
+
+          - label: "Vídeos"
+            name: "videos"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - label: "Vídeos"
+                name: "items"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - { label: "Link (YouTube ou Instagram)", name: "url", widget: "string" }
+                  - { label: "Legenda", name: "caption", widget: "string", required: false }
+
+          - label: "Depoimentos"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Depoimentos"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Estrelas (1 a 5)", name: "stars", widget: "number", min: 1, max: 5, default: 5 }
+                  - { label: "Texto", name: "text", widget: "text" }
+                  - { label: "Autor", name: "author", widget: "string" }
+
+          - label: "Área de atendimento"
+            name: "area"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "text" }
+              - label: "Cidades atendidas"
+                name: "cities"
+                widget: "list"
+                field: { label: "Cidade", name: "text", widget: "string" }
+              - { label: "Texto do horário", name: "hours_text", widget: "string" }
+
+          - label: "Perguntas frequentes (FAQ)"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Perguntas"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Pergunta", name: "question", widget: "string" }
+                  - { label: "Resposta", name: "answer", widget: "text" }
+
+          - label: "Contato / Formulário"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Chamada pequena (eyebrow)", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto de apoio", name: "lead", widget: "text" }
+              - { label: "Nota abaixo do botão do formulário", name: "form_note", widget: "string" }
+
+          - label: "Rodapé"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Frase de efeito", name: "tagline", widget: "string" }
+              - { label: "Texto de copyright", name: "copyright_name", widget: "string" }

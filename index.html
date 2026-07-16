@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="metaTitle">Estofado Novo | Limpeza de Estofados a Domicílio em São Paulo</title>
+<meta id="metaDescription" name="description" content="Limpeza profissional de sofás, colchões, cadeiras, carpetes e bancos de carro direto na sua casa. Produtos hipoalergênicos, orçamento grátis e atendimento no mesmo dia em São Paulo, Osasco, Barueri, Santo André e São Caetano do Sul.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%231B2A4A%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%231EB89C%22 font-family=%22Arial%22>E</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo">
+      <span class="logo__mark">EN</span>
+      <span class="logo__text" id="logoText"></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <span class="nav__indicator" id="navIndicator"></span>
+      <a href="#servicos" class="nav__link"><span>Serviços</span></a>
+      <a href="#como-funciona" class="nav__link"><span>Como funciona</span></a>
+      <a href="#diferenciais" class="nav__link"><span>Diferenciais</span></a>
+      <a href="#galeria" class="nav__link"><span>Antes &amp; Depois</span></a>
+      <a href="#depoimentos" class="nav__link"><span>Depoimentos</span></a>
+      <a href="#faq" class="nav__link"><span>Dúvidas</span></a>
+      <a href="#contato" class="nav__link"><span>Contato</span></a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#" id="phoneHeaderLink" class="btn btn--ghost btn--sm">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.2c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.3 1.1L6.6 10.8z" fill="currentColor"/></svg>
+        <span id="phoneHeaderText"></span>
+      </a>
+      <a href="#" id="whatsappHeaderLink" target="_blank" rel="noopener" class="btn btn--primary btn--sm">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.3 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C4 14.7 3.6 13.4 3.6 12c0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.8 8.2-8.4 8.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.3-.6-.4z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="inicio">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <span class="badge" id="heroBadge"></span>
+      <h1><span id="heroTitleLine1"></span> <span class="text-accent" id="heroTitleAccent"></span></h1>
+      <p class="hero__lead" id="heroLead"></p>
+      <div class="hero__cta">
+        <a href="#" id="heroCtaPrimary" target="_blank" rel="noopener" class="btn btn--primary btn--lg"></a>
+        <a href="#contato" class="btn btn--outline btn--lg" id="heroCtaSecondary"></a>
+      </div>
+      <ul class="hero__trust" id="heroTrust"></ul>
+    </div>
+
+    <div class="hero__visual">
+      <div class="ba-card">
+        <div class="ba-card__half ba-card__half--before">
+          <span class="ba-tag ba-tag--before">Antes</span>
+          <svg viewBox="0 0 200 160" class="sofa-illustration sofa-illustration--dirty">
+            <rect x="10" y="60" width="180" height="70" rx="16" fill="#8a8f9b"/>
+            <rect x="0" y="90" width="200" height="45" rx="18" fill="#767c8a"/>
+            <rect x="10" y="40" width="45" height="55" rx="14" fill="#767c8a"/>
+            <rect x="145" y="40" width="45" height="55" rx="14" fill="#767c8a"/>
+            <circle cx="70" cy="105" r="9" fill="#5c6270" opacity="0.6"/>
+            <circle cx="110" cy="115" r="14" fill="#5c6270" opacity="0.5"/>
+            <circle cx="140" cy="100" r="7" fill="#5c6270" opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="ba-card__half ba-card__half--after">
+          <span class="ba-tag ba-tag--after">Depois</span>
+          <svg viewBox="0 0 200 160" class="sofa-illustration sofa-illustration--clean">
+            <rect x="10" y="60" width="180" height="70" rx="16" fill="#1EB89C"/>
+            <rect x="0" y="90" width="200" height="45" rx="18" fill="#17a088"/>
+            <rect x="10" y="40" width="45" height="55" rx="14" fill="#17a088"/>
+            <rect x="145" y="40" width="45" height="55" rx="14" fill="#17a088"/>
+          </svg>
+        </div>
+        <div class="ba-card__divider"></div>
+      </div>
+      <p class="hero__visual-caption" id="heroVisualCaption"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section class="about">
+  <div class="container about__inner">
+    <div class="about__media">
+      <div class="about__photo-frame" id="aboutPhotoFrame">
+        <svg viewBox="0 0 240 240" width="100%" height="100%">
+          <rect width="240" height="240" rx="24" fill="#EDF3F1"/>
+          <circle cx="120" cy="95" r="42" fill="#1B2A4A"/>
+          <path d="M50 210c0-45 31-70 70-70s70 25 70 70" fill="#1B2A4A"/>
+          <rect x="0" y="200" width="240" height="40" fill="#1EB89C" opacity="0.15"/>
+        </svg>
+      </div>
+      <span class="about__photo-note" id="aboutPhotoNote"></span>
+    </div>
+    <div class="about__text">
+      <span class="eyebrow" id="aboutEyebrow"></span>
+      <h2 id="aboutTitle"></h2>
+      <div id="aboutParagraphs"></div>
+      <div class="about__signature">
+        <strong id="aboutSignatureName"></strong>
+        <span id="aboutSignatureRole"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVIÇOS ================= -->
+<section class="services" id="servicos">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" id="servicesEyebrow"></span>
+      <h2 id="servicesTitle"></h2>
+      <p id="servicesLead"></p>
+    </div>
+
+    <div class="grid grid--5" id="servicesGrid"></div>
+
+    <div class="extra-services">
+      <h3 class="extra-services__title" id="servicesExtraTitle"></h3>
+      <div class="chips" id="servicesExtraChips"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="process" id="como-funciona">
+  <div class="container">
+    <div class="section-head section-head--light">
+      <span class="eyebrow eyebrow--light" id="processEyebrow"></span>
+      <h2 id="processTitle"></h2>
+      <p id="processLead"></p>
+    </div>
+
+    <div class="timeline" id="processTimeline"></div>
+  </div>
+</section>
+
+<!-- ================= PREÇOS ================= -->
+<section class="pricing">
+  <div class="container pricing__inner">
+    <div class="pricing__text">
+      <span class="eyebrow" id="pricingEyebrow"></span>
+      <h2 id="pricingTitle"></h2>
+      <p id="pricingText"></p>
+      <ul class="pricing__payments" id="pricingPayments"></ul>
+      <a href="#" id="pricingCta" target="_blank" rel="noopener" class="btn btn--primary"></a>
+    </div>
+    <div class="pricing__card">
+      <h3 id="pricingCardTitle"></h3>
+      <p id="pricingCardText"></p>
+      <div class="pricing__note">
+        <strong id="pricingCardNoteStrong"></strong>
+        <span id="pricingCardNoteRest"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DIFERENCIAIS ================= -->
+<section class="differentials" id="diferenciais">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" id="diffEyebrow"></span>
+      <h2 id="diffTitle"></h2>
+    </div>
+
+    <div class="grid grid--4" id="diffGrid"></div>
+
+    <div class="stats-bar" id="diffStats"></div>
+  </div>
+</section>
+
+<!-- ================= GALERIA ANTES/DEPOIS ================= -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" id="galleryEyebrow"></span>
+      <h2 id="galleryTitle"></h2>
+      <p id="galleryLead"></p>
+    </div>
+
+    <div class="grid grid--3" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- ================= VÍDEOS (aparece só se houver vídeos cadastrados) ================= -->
+<section class="gallery" id="videos" style="display:none">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" id="videosEyebrow"></span>
+      <h2 id="videosTitle"></h2>
+      <p id="videosLead"></p>
+    </div>
+
+    <div class="grid grid--3" id="videosGrid"></div>
+  </div>
+</section>
+
+<!-- ================= DEPOIMENTOS ================= -->
+<section class="testimonials" id="depoimentos">
+  <div class="container">
+    <div class="section-head section-head--light">
+      <span class="eyebrow eyebrow--light" id="testimonialsEyebrow"></span>
+      <h2 id="testimonialsTitle"></h2>
+    </div>
+
+    <div class="grid grid--3" id="testimonialsGrid"></div>
+  </div>
+</section>
+
+<!-- ================= ÁREA DE ATENDIMENTO ================= -->
+<section class="area">
+  <div class="container area__inner">
+    <div class="area__text">
+      <span class="eyebrow" id="areaEyebrow"></span>
+      <h2 id="areaTitle"></h2>
+      <p id="areaText"></p>
+      <ul class="area__list" id="areaCities"></ul>
+      <p class="area__hours" id="areaHours"></p>
+    </div>
+    <div class="area__map">
+      <iframe
+        title="Mapa da região de atendimento"
+        src="https://www.google.com/maps?q=S%C3%A3o+Paulo,+Osasco,+Barueri,+Santo+Andr%C3%A9,+S%C3%A3o+Caetano+do+Sul&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" id="faqEyebrow"></span>
+      <h2 id="faqTitle"></h2>
+    </div>
+
+    <div class="accordion" id="accordion"></div>
+  </div>
+</section>
+
+<!-- ================= CONTATO / ORÇAMENTO ================= -->
+<section class="contact" id="contato">
+  <div class="container contact__inner">
+    <div class="contact__info">
+      <span class="eyebrow eyebrow--light" id="contactEyebrow"></span>
+      <h2 id="contactTitle"></h2>
+      <p id="contactLead"></p>
+
+      <ul class="contact__list" id="contactList"></ul>
+
+      <div class="contact__social" id="contactSocial"></div>
+    </div>
+
+    <form class="contact__form" id="orcamentoForm">
+      <h3>Formulário de orçamento</h3>
+
+      <label>
+        Nome
+        <input type="text" name="nome" required placeholder="Seu nome completo">
+      </label>
+
+      <label>
+        WhatsApp / Telefone
+        <input type="tel" name="telefone" required placeholder="(11) 90000-0000">
+      </label>
+
+      <label>
+        Cidade / bairro
+        <input type="text" name="cidade" required placeholder="Ex: São Paulo - Zona Sul">
+      </label>
+
+      <label>
+        Tipo de estofado
+        <select name="estofado" required>
+          <option value="">Selecione</option>
+          <option>Sofá</option>
+          <option>Colchão</option>
+          <option>Cadeira / poltrona</option>
+          <option>Carpete / tapete</option>
+          <option>Banco de carro</option>
+          <option>Outro</option>
+        </select>
+      </label>
+
+      <label>
+        Conte um pouco sobre o serviço
+        <textarea name="mensagem" rows="3" placeholder="Ex: sofá 3 lugares com manchas de suco"></textarea>
+      </label>
+
+      <button type="submit" class="btn btn--primary btn--block">Enviar pelo WhatsApp</button>
+      <p class="contact__form-note" id="contactFormNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="logo__text logo__text--footer" id="footerLogoText"></span>
+      <p id="footerTagline"></p>
+    </div>
+    <div class="footer__links">
+      <h4>Navegação</h4>
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#faq">Dúvidas frequentes</a>
+      <a href="#contato">Contato</a>
+    </div>
+    <div class="footer__links">
+      <h4>Contato</h4>
+      <a href="#" id="footerPhoneLink"></a>
+      <a href="#" id="footerEmailLink"></a>
+      <span id="footerHours"></span>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> <span id="footerCopyright"></span></p>
+  </div>
+</footer>
+
+<!-- ================= WHATSAPP FLUTUANTE ================= -->
+<a href="#" id="whatsappFloat" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar no WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.3 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C4 14.7 3.6 13.4 3.6 12c0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.8 8.2-8.4 8.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; });
+      }
+    });
+  }
+</script>
+<script src="js/content-loader.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
