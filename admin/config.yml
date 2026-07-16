@@ -21,6 +21,7 @@ collections:
             name: "site"
             widget: "object"
             fields:
+              - { label: "Logo (imagem no topo, no lugar do 'EN')", name: "logo_image", widget: "image", required: false, hint: "Se não enviar, mostra as iniciais da marca num quadrado" }
               - { label: "Nome da marca", name: "brand_name", widget: "string" }
               - { label: "Título da página (aba do navegador)", name: "title", widget: "string" }
               - { label: "Descrição (SEO)", name: "description", widget: "text" }

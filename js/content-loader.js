@@ -48,6 +48,19 @@
     document.getElementById('logoText').appendChild(logoHtml());
     document.getElementById('footerLogoText').appendChild(logoHtml());
 
+    if (site.logo_image) {
+      const mark = document.getElementById('logoMark');
+      mark.innerHTML = '';
+      mark.style.background = 'transparent';
+      const img = document.createElement('img');
+      img.src = site.logo_image;
+      img.alt = site.brand_name;
+      img.style.width = '100%';
+      img.style.height = '100%';
+      img.style.objectFit = 'contain';
+      mark.appendChild(img);
+    }
+
     const phoneLink = document.getElementById('phoneHeaderLink');
     phoneLink.href = `tel:${site.phone_primary_tel}`;
     setText('phoneHeaderText', site.phone_primary_display);
