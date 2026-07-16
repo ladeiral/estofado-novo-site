@@ -79,6 +79,25 @@
       li.appendChild(document.createTextNode(' ' + item.label));
       trust.appendChild(li);
     });
+
+    swapHeroPhoto('heroVisualBefore', hero.visual_before_image, 'Antes');
+    swapHeroPhoto('heroVisualAfter', hero.visual_after_image, 'Depois');
+  }
+
+  function swapHeroPhoto(containerId, src, alt) {
+    if (!src) return;
+    const half = document.getElementById(containerId);
+    const illustration = half.querySelector('.sofa-illustration');
+    if (illustration) illustration.remove();
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = alt;
+    img.style.position = 'absolute';
+    img.style.inset = '0';
+    img.style.width = '100%';
+    img.style.height = '100%';
+    img.style.objectFit = 'cover';
+    half.appendChild(img);
   }
 
   function renderAbout(about) {

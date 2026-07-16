@@ -55,6 +55,8 @@ collections:
                 fields:
                   - { label: "Valor", name: "value", widget: "string" }
                   - { label: "Legenda", name: "label", widget: "string" }
+              - { label: "Foto — Antes (card no topo da página)", name: "visual_before_image", widget: "image", required: false, hint: "Se não enviar, mostra a ilustração padrão" }
+              - { label: "Foto — Depois (card no topo da página)", name: "visual_after_image", widget: "image", required: false, hint: "Se não enviar, mostra a ilustração padrão" }
               - { label: "Legenda da imagem antes/depois", name: "visual_caption", widget: "string" }
 
           - label: "Sobre"
