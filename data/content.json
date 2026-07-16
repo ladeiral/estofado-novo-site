@@ -20,12 +20,12 @@
     "card_note": "Atendimento rápido: serviço concluído no mesmo dia, da chegada da equipe até a entrega."
   },
   "site": {
-    "logo_image": null,
     "instagram_url": "https://instagram.com/estofadonovo.limpeza",
     "brand_name": "HigiPro HP",
     "phone_secondary_display": "+351910417713",
     "whatsapp_visit_message": "Olá! Quero agendar uma visita técnica gratuita para orçamento.",
     "instagram_label": "Instagram @estofadonovo.limpeza",
+    "logo_image": "/uploads/captura-de-ecrã-2026-07-16-210048.png",
     "phone_primary_tel": "+351910417713",
     "hours": "24 Horas",
     "phone_primary_display": "+351910417713",
