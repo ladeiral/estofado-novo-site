@@ -36,7 +36,7 @@ collections:
               - { label: "Texto do Instagram", name: "instagram_label", widget: "string" }
               - { label: "Link do Facebook", name: "facebook_url", widget: "string" }
               - { label: "Texto do Facebook", name: "facebook_label", widget: "string" }
-              - { label: "Endereço / base operacional", name: "address", widget: "string" }
+              - { label: "Endereço / base operacional", name: "address", widget: "string", hint: "Esse endereço também é usado para posicionar o mapa na seção 'Região de atendimento'" }
               - { label: "Horário de atendimento", name: "hours", widget: "string" }
 
           - label: "Topo (Hero)"

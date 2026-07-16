@@ -301,7 +301,7 @@
     });
   }
 
-  function renderArea(area) {
+  function renderArea(area, site) {
     setText('areaEyebrow', area.eyebrow);
     setText('areaTitle', area.title);
     setText('areaText', area.text);
@@ -310,6 +310,12 @@
     const cities = document.getElementById('areaCities');
     cities.innerHTML = '';
     area.cities.forEach(city => cities.appendChild(el('li', null, city)));
+
+    const mapQuery = (site.address || area.cities.join(', ')).trim();
+    if (mapQuery) {
+      document.getElementById('areaMapFrame').src =
+        `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed`;
+    }
   }
 
   function renderFaq(faq) {
@@ -407,7 +413,7 @@
       renderGallery(content.gallery);
       renderVideos(content.videos);
       renderTestimonials(content.testimonials);
-      renderArea(content.area);
+      renderArea(content.area, content.site);
       renderFaq(content.faq);
       renderContact(content.contact, content.site);
       renderFooter(content.footer, content.site);
