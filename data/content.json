@@ -1,36 +1,55 @@
 {
-  "site": {
-    "brand_name": "Estofado Novo",
-    "title": "Estofado Novo | Limpeza de Estofados a Domicílio em São Paulo",
-    "description": "Limpeza profissional de sofás, colchões, cadeiras, carpetes e bancos de carro direto na sua casa. Produtos hipoalergênicos, orçamento grátis e atendimento no mesmo dia em São Paulo, Osasco, Barueri, Santo André e São Caetano do Sul.",
-    "phone_primary_display": "(11) 98765-4321",
-    "phone_primary_tel": "+5511987654321",
-    "phone_secondary_display": "(11) 3456-7890",
-    "phone_secondary_tel": "+551134567890",
-    "whatsapp_number": "5511987654321",
-    "whatsapp_default_message": "Olá! Quero um orçamento para limpeza de estofados.",
-    "whatsapp_visit_message": "Olá! Quero agendar uma visita técnica gratuita para orçamento.",
-    "email": "contato@estofadonovo.com.br",
-    "instagram_url": "https://instagram.com/estofadonovo.limpeza",
-    "instagram_label": "Instagram @estofadonovo.limpeza",
-    "facebook_url": "https://facebook.com/estofadonovolimpeza",
-    "facebook_label": "Facebook /estofadonovolimpeza",
-    "address": "Vila Prudente, São Paulo - SP (atendimento a domicílio)",
-    "hours": "Segunda a sábado, das 8h às 18h"
+  "contact": {
+    "eyebrow": "Fale com a gente",
+    "title": "Peça seu orçamento",
+    "lead": "Preencha o formulário ou fale direto pelo WhatsApp — respondemos rapidinho.",
+    "form_note": "Ao enviar, abriremos o WhatsApp com sua mensagem pronta para envio."
   },
-  "hero": {
-    "badge": "★ 4,8 no Google · 132 avaliações",
-    "title_line1": "Seu sofá como novo,",
-    "title_accent": "sem sair de casa.",
-    "lead": "Limpeza profissional de estofados feita na sua casa, em São Paulo e região. Produtos hipoalergênicos, orçamento sem compromisso na visita técnica e serviço concluído no mesmo dia.",
-    "cta_primary_text": "Pedir orçamento grátis pelo WhatsApp",
-    "cta_secondary_text": "Ver formulário",
-    "trust": [
-      { "value": "8 anos", "label": "de mercado" },
-      { "value": "+1.200", "label": "serviços realizados" },
-      { "value": "Garantia", "label": "por escrito" }
+  "pricing": {
+    "eyebrow": "Investimento",
+    "title": "Orçamento sempre personalizado",
+    "text": "Cada estofado tem um tecido, um nível de sujidade e um tamanho diferente — por isso não trabalhamos com tabela fechada no site. Na visita técnica gratuita você recebe um valor justo e transparente, na hora.",
+    "payments": [
+      "Pix",
+      "Dinheiro",
+      "Cartão de débito/crédito — em até 3x sem juros"
     ],
-    "visual_caption": "Exemplo ilustrativo — fotos reais de antes/depois em breve nesta seção."
+    "cta_text": "Solicitar avaliação gratuita",
+    "card_title": "Por que a visita é gratuita?",
+    "card_text": "Assim garantimos um preço justo para o seu caso específico — sem cobrar por um serviço padrão que talvez não combine com o seu estofado.",
+    "card_note": "Atendimento rápido: serviço concluído no mesmo dia, da chegada da equipe até a entrega."
+  },
+  "site": {
+    "instagram_url": "https://instagram.com/estofadonovo.limpeza",
+    "brand_name": "Estofado Novo",
+    "phone_secondary_display": "(11) 3456-7890",
+    "whatsapp_visit_message": "Olá! Quero agendar uma visita técnica gratuita para orçamento.",
+    "instagram_label": "Instagram @estofadonovo.limpeza",
+    "phone_primary_tel": "+5511987654321",
+    "hours": "Segunda a sábado, das 8h às 18h",
+    "phone_primary_display": "(11) 98765-4321",
+    "address": "Vila Prudente, São Paulo - SP (atendimento a domicílio)",
+    "facebook_url": "https://facebook.com/estofadonovolimpeza",
+    "whatsapp_number": "5511987654321",
+    "title": "Estofado Novo | Limpeza de Estofados a Domicílio em São Paulo",
+    "facebook_label": "Facebook /estofadonovolimpeza",
+    "whatsapp_default_message": "Olá! Quero um orçamento para limpeza de estofados.",
+    "email": "contato@estofadonovo.com.br",
+    "description": "Limpeza profissional de sofás, colchões, cadeiras, carpetes e bancos de carro direto na sua casa. Produtos hipoalergênicos, orçamento grátis e atendimento no mesmo dia em São Paulo, Osasco, Barueri, Santo André e São Caetano do Sul.",
+    "phone_secondary_tel": "+551134567890"
+  },
+  "area": {
+    "eyebrow": "Onde atendemos",
+    "title": "Região de atendimento",
+    "text": "Atendimento 100% a domicílio, sem loja física — nossa base operacional fica na Vila Prudente, São Paulo - SP.",
+    "cities": [
+      "São Paulo (zona sul, zona oeste e centro)",
+      "Osasco",
+      "Barueri",
+      "Santo André",
+      "São Caetano do Sul"
+    ],
+    "hours_text": "Horário de atendimento: segunda a sábado, das 8h às 18h."
   },
   "about": {
     "eyebrow": "Nossa história",
@@ -44,62 +63,39 @@
     "signature_name": "Marcos Aurélio Ferreira",
     "signature_role": "Proprietário e técnico responsável"
   },
-  "services": {
-    "eyebrow": "O que limpamos",
-    "title": "Serviços para cada tipo de estofado",
-    "lead": "Atendimento a domicílio para todos os itens abaixo, com avaliação técnica gratuita antes de fechar o serviço.",
-    "items": [
-      { "icon": "🛋️", "title": "Sofás" },
-      { "icon": "🛏️", "title": "Colchões" },
-      { "icon": "🪑", "title": "Cadeiras e poltronas" },
-      { "icon": "🧶", "title": "Carpetes e tapetes" },
-      { "icon": "🚗", "title": "Bancos de carro" }
-    ],
-    "extra_title": "Serviços adicionais",
-    "extra_items": [
-      "💧 Impermeabilização",
-      "✨ Remoção de manchas específicas",
-      "🦠 Higienização antiácaros",
-      "🌿 Eliminação de odores"
-    ]
-  },
   "process": {
     "eyebrow": "Processo simples",
     "title": "Como funciona o serviço",
     "lead": "Do primeiro contato até a vistoria final, tudo no mesmo dia.",
     "steps": [
-      { "title": "Contato inicial", "text": "Você fala com a gente pelo WhatsApp ou pelo site e descreve o estofado." },
-      { "title": "Visita técnica gratuita", "text": "Agendamos uma avaliação do tecido e das manchas, sem compromisso." },
-      { "title": "Orçamento na hora", "text": "Valor passado ainda durante a visita, sem surpresas depois." },
-      { "title": "Confirmação e agenda", "text": "Você aprova e marcamos a data mais conveniente para o serviço." },
-      { "title": "Limpeza profissional", "text": "Extratora profissional e produtos hipoalergênicos, direto na sua casa." },
-      { "title": "Secagem", "text": "Entre 2 e 4 horas em dias secos, podendo chegar a 6h em dias úmidos." },
-      { "title": "Vistoria final", "text": "Conferimos o resultado juntos antes da equipe ir embora — tudo no mesmo dia." }
-    ]
-  },
-  "pricing": {
-    "eyebrow": "Investimento",
-    "title": "Orçamento sempre personalizado",
-    "text": "Cada estofado tem um tecido, um nível de sujidade e um tamanho diferente — por isso não trabalhamos com tabela fechada no site. Na visita técnica gratuita você recebe um valor justo e transparente, na hora.",
-    "payments": ["Pix", "Dinheiro", "Cartão de débito/crédito — em até 3x sem juros"],
-    "cta_text": "Solicitar avaliação gratuita",
-    "card_title": "Por que a visita é gratuita?",
-    "card_text": "Assim garantimos um preço justo para o seu caso específico — sem cobrar por um serviço padrão que talvez não combine com o seu estofado.",
-    "card_note": "Atendimento rápido: serviço concluído no mesmo dia, da chegada da equipe até a entrega."
-  },
-  "differentials": {
-    "eyebrow": "Por que a Estofado Novo",
-    "title": "Diferenciais que geram confiança",
-    "items": [
-      { "icon": "🌿", "title": "Produtos ecológicos", "text": "Hipoalergênicos e seguros para crianças e animais de estimação." },
-      { "icon": "⚙️", "title": "Equipamento profissional", "text": "Extratoras de alta performance para um resultado realmente eficaz." },
-      { "icon": "📄", "title": "Garantia por escrito", "text": "Compromisso formal com a qualidade do serviço prestado." },
-      { "icon": "⚡", "title": "Atendimento no mesmo dia", "text": "Urgências são atendidas com rapidez, sem abrir mão da qualidade." }
-    ],
-    "stats": [
-      { "value": "4,8 ★", "label": "132 avaliações no Google" },
-      { "value": "+1.200", "label": "serviços realizados desde 2016" },
-      { "value": "8 anos", "label": "de atuação no mercado" }
+      {
+        "title": "Contato inicial",
+        "text": "Você fala com a gente pelo WhatsApp ou pelo site e descreve o estofado."
+      },
+      {
+        "title": "Visita técnica gratuita",
+        "text": "Agendamos uma avaliação do tecido e das manchas, sem compromisso."
+      },
+      {
+        "title": "Orçamento na hora",
+        "text": "Valor passado ainda durante a visita, sem surpresas depois."
+      },
+      {
+        "title": "Confirmação e agenda",
+        "text": "Você aprova e marcamos a data mais conveniente para o serviço."
+      },
+      {
+        "title": "Limpeza profissional",
+        "text": "Extratora profissional e produtos hipoalergênicos, direto na sua casa."
+      },
+      {
+        "title": "Secagem",
+        "text": "Entre 2 e 4 horas em dias secos, podendo chegar a 6h em dias úmidos."
+      },
+      {
+        "title": "Vistoria final",
+        "text": "Conferimos o resultado juntos antes da equipe ir embora — tudo no mesmo dia."
+      }
     ]
   },
   "gallery": {
@@ -107,9 +103,108 @@
     "title": "Antes & Depois",
     "lead": "Espaço reservado para as fotos reais de antes e depois — basta substituir os cartões abaixo pelas imagens enviadas pela equipe.",
     "items": [
-      { "before_image": null, "after_image": null, "caption": "Sofá de 3 lugares — manchas de suco" },
-      { "before_image": null, "after_image": null, "caption": "Colchão de casal — odor de mofo" },
-      { "before_image": null, "after_image": null, "caption": "Poltrona — higienização antiácaros" }
+      {
+        "before_image": "/uploads/whatsapp-image-2026-07-16-at-13.03.58.jpeg",
+        "after_image": "/uploads/whatsapp-image-2026-07-16-at-13.03.17.jpeg",
+        "caption": "Sofá de 3 lugares — manchas de suco"
+      },
+      {
+        "before_image": null,
+        "after_image": null,
+        "caption": "Colchão de casal — odor de mofo"
+      },
+      {
+        "before_image": null,
+        "after_image": null,
+        "caption": "Poltrona — higienização antiácaros"
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Quem já contratou",
+    "title": "O que dizem nossos clientes",
+    "items": [
+      {
+        "stars": 5,
+        "text": "Meu sofá cinza estava com manchas de suco que eu já achava que não saíam mais. Ficou impecável e sequei no mesmo dia.",
+        "author": "Juliana Mendes"
+      },
+      {
+        "stars": 5,
+        "text": "Atendimento pontual, chegaram no horário combinado e o cheiro de mofo do colchão sumiu de vez.",
+        "author": "Roberto Cardoso"
+      },
+      {
+        "stars": 5,
+        "text": "Contratei pela indicação de uma vizinha e não me arrependi. Equipe educada e preço justo.",
+        "author": "Patrícia Lima"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Dúvidas frequentes",
+    "title": "Perguntas que todo cliente faz",
+    "items": [
+      {
+        "question": "Quanto tempo demora para o sofá secar depois da limpeza?",
+        "answer": "Em dias secos, a secagem leva entre 2 e 4 horas. Em dias muito úmidos pode chegar a 6 horas. Todo o serviço — da chegada da equipe à entrega — é concluído no mesmo dia."
+      },
+      {
+        "question": "Os produtos usados fazem mal para crianças e animais de estimação?",
+        "answer": "Não. Utilizamos produtos hipoalergênicos e ecológicos, seguros para toda a família, incluindo crianças e pets."
+      },
+      {
+        "question": "Preciso tirar o estofado de casa ou levar até algum lugar?",
+        "answer": "Não. Todo o serviço é feito na sua casa, com equipamento profissional levado pela nossa equipe. Você não fica sem o móvel em nenhum momento."
+      },
+      {
+        "question": "Vocês fazem orçamento sem compromisso antes de fechar o serviço?",
+        "answer": "Sim. Fazemos uma visita técnica gratuita para avaliar o tecido e as manchas, e o orçamento é passado na hora — sem compromisso de fechar o serviço."
+      },
+      {
+        "question": "A limpeza tira mesmo manchas antigas, como de caneta e vinho?",
+        "answer": "Na maioria dos casos sim. Cada mancha é avaliada individualmente na visita técnica, considerando o tipo de tecido e o tempo da mancha, para indicar o melhor tratamento."
+      }
+    ]
+  },
+  "differentials": {
+    "eyebrow": "Por que a Estofado Novo",
+    "title": "Diferenciais que geram confiança",
+    "items": [
+      {
+        "icon": "🌿",
+        "title": "Produtos ecológicos",
+        "text": "Hipoalergênicos e seguros para crianças e animais de estimação."
+      },
+      {
+        "icon": "⚙️",
+        "title": "Equipamento profissional",
+        "text": "Extratoras de alta performance para um resultado realmente eficaz."
+      },
+      {
+        "icon": "📄",
+        "title": "Garantia por escrito",
+        "text": "Compromisso formal com a qualidade do serviço prestado."
+      },
+      {
+        "icon": "⚡",
+        "title": "Atendimento no mesmo dia",
+        "text": "Urgências são atendidas com rapidez, sem abrir mão da qualidade."
+      }
+    ],
+    "stats": [
+      {
+        "value": "4,8 ★",
+        "label": "132 avaliações no Google"
+      },
+      {
+        "value": "+1.200",
+        "label": "serviços realizados desde 2016"
+      },
+      {
+        "value": "8 anos",
+        "label": "de atuação no mercado"
+      }
     ]
   },
   "videos": {
@@ -118,41 +213,65 @@
     "lead": "Vídeos do serviço sendo feito — adicione links do YouTube ou Instagram pelo painel admin.",
     "items": []
   },
-  "testimonials": {
-    "eyebrow": "Quem já contratou",
-    "title": "O que dizem nossos clientes",
-    "items": [
-      { "stars": 5, "text": "Meu sofá cinza estava com manchas de suco que eu já achava que não saíam mais. Ficou impecável e sequei no mesmo dia.", "author": "Juliana Mendes" },
-      { "stars": 5, "text": "Atendimento pontual, chegaram no horário combinado e o cheiro de mofo do colchão sumiu de vez.", "author": "Roberto Cardoso" },
-      { "stars": 5, "text": "Contratei pela indicação de uma vizinha e não me arrependi. Equipe educada e preço justo.", "author": "Patrícia Lima" }
-    ]
-  },
-  "area": {
-    "eyebrow": "Onde atendemos",
-    "title": "Região de atendimento",
-    "text": "Atendimento 100% a domicílio, sem loja física — nossa base operacional fica na Vila Prudente, São Paulo - SP.",
-    "cities": ["São Paulo (zona sul, zona oeste e centro)", "Osasco", "Barueri", "Santo André", "São Caetano do Sul"],
-    "hours_text": "Horário de atendimento: segunda a sábado, das 8h às 18h."
-  },
-  "faq": {
-    "eyebrow": "Dúvidas frequentes",
-    "title": "Perguntas que todo cliente faz",
-    "items": [
-      { "question": "Quanto tempo demora para o sofá secar depois da limpeza?", "answer": "Em dias secos, a secagem leva entre 2 e 4 horas. Em dias muito úmidos pode chegar a 6 horas. Todo o serviço — da chegada da equipe à entrega — é concluído no mesmo dia." },
-      { "question": "Os produtos usados fazem mal para crianças e animais de estimação?", "answer": "Não. Utilizamos produtos hipoalergênicos e ecológicos, seguros para toda a família, incluindo crianças e pets." },
-      { "question": "Preciso tirar o estofado de casa ou levar até algum lugar?", "answer": "Não. Todo o serviço é feito na sua casa, com equipamento profissional levado pela nossa equipe. Você não fica sem o móvel em nenhum momento." },
-      { "question": "Vocês fazem orçamento sem compromisso antes de fechar o serviço?", "answer": "Sim. Fazemos uma visita técnica gratuita para avaliar o tecido e as manchas, e o orçamento é passado na hora — sem compromisso de fechar o serviço." },
-      { "question": "A limpeza tira mesmo manchas antigas, como de caneta e vinho?", "answer": "Na maioria dos casos sim. Cada mancha é avaliada individualmente na visita técnica, considerando o tipo de tecido e o tempo da mancha, para indicar o melhor tratamento." }
-    ]
-  },
-  "contact": {
-    "eyebrow": "Fale com a gente",
-    "title": "Peça seu orçamento",
-    "lead": "Preencha o formulário ou fale direto pelo WhatsApp — respondemos rapidinho.",
-    "form_note": "Ao enviar, abriremos o WhatsApp com sua mensagem pronta para envio."
+  "hero": {
+    "badge": "★ 4,8 no Google · 132 avaliações",
+    "title_line1": "Seu sofá como novo,",
+    "title_accent": "sem sair de casa.",
+    "lead": "Limpeza profissional de estofados feita na sua casa, em São Paulo e região. Produtos hipoalergênicos, orçamento sem compromisso na visita técnica e serviço concluído no mesmo dia.",
+    "cta_primary_text": "Pedir orçamento grátis pelo WhatsApp",
+    "cta_secondary_text": "Ver formulário",
+    "trust": [
+      {
+        "value": "8 anos",
+        "label": "de mercado"
+      },
+      {
+        "value": "+1.200",
+        "label": "serviços realizados"
+      },
+      {
+        "value": "Garantia",
+        "label": "por escrito"
+      }
+    ],
+    "visual_caption": "Exemplo ilustrativo — fotos reais de antes/depois em breve nesta seção."
   },
   "footer": {
     "tagline": "Seu sofá como novo, sem sair de casa.",
     "copyright_name": "Estofado Novo Limpeza de Estofados. Todos os direitos reservados."
+  },
+  "services": {
+    "eyebrow": "O que limpamos",
+    "title": "Serviços para cada tipo de estofado",
+    "lead": "Atendimento a domicílio para todos os itens abaixo, com avaliação técnica gratuita antes de fechar o serviço.",
+    "items": [
+      {
+        "icon": "🛋️",
+        "title": "Sofás"
+      },
+      {
+        "icon": "🛏️",
+        "title": "Colchões"
+      },
+      {
+        "icon": "🪑",
+        "title": "Cadeiras e poltronas"
+      },
+      {
+        "icon": "🧶",
+        "title": "Carpetes e tapetes"
+      },
+      {
+        "icon": "🚗",
+        "title": "Bancos de carro"
+      }
+    ],
+    "extra_title": "Serviços adicionais",
+    "extra_items": [
+      "💧 Impermeabilização",
+      "✨ Remoção de manchas específicas",
+      "🦠 Higienização antiácaros",
+      "🌿 Eliminação de odores"
+    ]
   }
 }
