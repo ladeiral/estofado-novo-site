@@ -22,21 +22,21 @@
   "site": {
     "instagram_url": "https://instagram.com/estofadonovo.limpeza",
     "brand_name": "HigiPro HP",
-    "phone_secondary_display": "+351 910 417 713",
+    "phone_secondary_display": "+351910417713",
     "whatsapp_visit_message": "Olá! Quero agendar uma visita técnica gratuita para orçamento.",
     "instagram_label": "Instagram @estofadonovo.limpeza",
-    "phone_primary_tel": "+351 910 417 713",
+    "phone_primary_tel": "+351910417713",
     "hours": "24 Horas",
-    "phone_primary_display": "+351 910 417 713",
+    "phone_primary_display": "+351910417713",
     "address": "Oeiras - Portugal",
     "facebook_url": "https://facebook.com/estofadonovolimpeza",
-    "whatsapp_number": "+351 910 417 713",
+    "whatsapp_number": "+351910417713",
     "title": "Estofado Novo | Limpeza de Estofados a Domicílio em Oeiras",
     "facebook_label": "Facebook /estofadonovolimpeza",
     "whatsapp_default_message": "Olá! Quero um orçamento para limpeza de estofados.",
     "email": "higi_pro@outlook.com",
     "description": "Mais do que limpeza, entregamos cuidado, saúde e bem-estar para o seu lar.\n\nSomos especialistas em higienização e impermeabilização profissional de:\n🛋️ Sofás\n🛏️ Colchões\n🪑 Poltronas\n✨ E outros estofados\n\nEliminamos sujeiras, ácaros, manchas e odores, devolvendo a sensação de conforto e renovação que você merece.\n\nAcompanhe nosso perfil e descubra como manter seus estofados sempre limpos, protegidos e com aparência de novos.",
-    "phone_secondary_tel": "+351 910 417 713"
+    "phone_secondary_tel": "+351910417713"
   },
   "area": {
     "eyebrow": "Onde atendemos",
@@ -103,16 +103,6 @@
         "before_image": "/uploads/whatsapp-image-2026-07-16-at-13.03.58.jpeg",
         "after_image": "/uploads/whatsapp-image-2026-07-16-at-13.03.17.jpeg",
         "caption": "Sofá de 3 lugares — manchas de suco"
-      },
-      {
-        "before_image": null,
-        "after_image": null,
-        "caption": "Colchão de casal — odor de mofo"
-      },
-      {
-        "before_image": null,
-        "after_image": null,
-        "caption": "Poltrona — higienização antiácaros"
       }
     ]
   },
