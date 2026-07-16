@@ -21,22 +21,22 @@
   },
   "site": {
     "instagram_url": "https://instagram.com/estofadonovo.limpeza",
-    "brand_name": "Estofado Novo",
-    "phone_secondary_display": "(11) 3456-7890",
+    "brand_name": "HigiPro HP",
+    "phone_secondary_display": "+351 910 417 713",
     "whatsapp_visit_message": "Olá! Quero agendar uma visita técnica gratuita para orçamento.",
     "instagram_label": "Instagram @estofadonovo.limpeza",
-    "phone_primary_tel": "+5511987654321",
-    "hours": "Segunda a sábado, das 8h às 18h",
-    "phone_primary_display": "(11) 98765-4321",
-    "address": "Vila Prudente, São Paulo - SP (atendimento a domicílio)",
+    "phone_primary_tel": "+351 910 417 713",
+    "hours": "24 Horas",
+    "phone_primary_display": "+351 910 417 713",
+    "address": "Oeiras - Portugal",
     "facebook_url": "https://facebook.com/estofadonovolimpeza",
-    "whatsapp_number": "5511987654321",
-    "title": "Estofado Novo | Limpeza de Estofados a Domicílio em São Paulo",
+    "whatsapp_number": "+351 910 417 713",
+    "title": "Estofado Novo | Limpeza de Estofados a Domicílio em Oeiras",
     "facebook_label": "Facebook /estofadonovolimpeza",
     "whatsapp_default_message": "Olá! Quero um orçamento para limpeza de estofados.",
-    "email": "contato@estofadonovo.com.br",
-    "description": "Limpeza profissional de sofás, colchões, cadeiras, carpetes e bancos de carro direto na sua casa. Produtos hipoalergênicos, orçamento grátis e atendimento no mesmo dia em São Paulo, Osasco, Barueri, Santo André e São Caetano do Sul.",
-    "phone_secondary_tel": "+551134567890"
+    "email": "higi_pro@outlook.com",
+    "description": "Mais do que limpeza, entregamos cuidado, saúde e bem-estar para o seu lar.\n\nSomos especialistas em higienização e impermeabilização profissional de:\n🛋️ Sofás\n🛏️ Colchões\n🪑 Poltronas\n✨ E outros estofados\n\nEliminamos sujeiras, ácaros, manchas e odores, devolvendo a sensação de conforto e renovação que você merece.\n\nAcompanhe nosso perfil e descubra como manter seus estofados sempre limpos, protegidos e com aparência de novos.",
+    "phone_secondary_tel": "+351 910 417 713"
   },
   "area": {
     "eyebrow": "Onde atendemos",
@@ -58,7 +58,7 @@
       "A Estofado Novo nasceu em 2016, quando **Marcos Aurélio Ferreira**, que já trabalhava havia anos com limpeza predial, percebeu que faltava no bairro um serviço de confiança para higienização de sofás e colchões feito diretamente na casa do cliente.",
       "Começou sozinho, com uma extratora alugada, e hoje conta com uma equipe fixa e mais de 1.200 serviços realizados. A missão continua a mesma: oferecer um serviço técnico, pontual, com produtos que não agridem crianças e animais de estimação — sem que o cliente precise se deslocar ou ficar sem o móvel."
     ],
-    "photo": null,
+    "photo": "/uploads/whatsapp-image-2026-07-16-at-13.03.17.jpeg",
     "photo_note": "Foto da equipe / fundador — a inserir",
     "signature_name": "Marcos Aurélio Ferreira",
     "signature_role": "Proprietário e técnico responsável"
