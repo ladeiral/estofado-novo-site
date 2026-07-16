@@ -223,12 +223,12 @@ img, svg { max-width: 100%; display: block; }
 .ba-card {
   position: relative;
   display: flex;
+  flex-direction: column;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
-  aspect-ratio: 4/3;
 }
-.ba-card__half { flex: 1; position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5rem; }
+.ba-card__half { position: relative; display: flex; align-items: center; justify-content: center; padding: 1.5rem; aspect-ratio: 16/9; }
 .ba-card__half--before { background: #dfe3ea; }
 .ba-card__half--after { background: #d7f3ee; }
 .sofa-illustration { width: 100%; max-width: 180px; }
@@ -246,7 +246,7 @@ img, svg { max-width: 100%; display: block; }
 }
 .ba-tag--before { left: 14px; background: #6d7686; }
 .ba-tag--after { right: 14px; background: var(--verde-dark); }
-.ba-card__divider { position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: var(--branco); transform: translateX(-50%); }
+.ba-card__divider { position: absolute; left: 0; right: 0; top: 50%; height: 3px; background: var(--branco); transform: translateY(-50%); }
 .hero__visual-caption { text-align: center; font-size: .82rem; color: var(--cinza-claro); margin-top: .9rem; }
 
 /* ============ ABOUT ============ */
@@ -376,9 +376,10 @@ img, svg { max-width: 100%; display: block; }
   overflow: hidden;
   box-shadow: var(--shadow-sm);
 }
-.gallery-card__split { display: flex; aspect-ratio: 4/3; }
+.gallery-card__split { display: flex; flex-direction: column; }
 .gallery-card__side {
-  flex: 1;
+  position: relative;
+  aspect-ratio: 16/9;
   display: flex;
   align-items: center;
   justify-content: center;
